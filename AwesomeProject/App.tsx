@@ -37,7 +37,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
         style={[
           styles.sectionTitle,
           {
-            color: isDarkMode ? Colors.white : Colors.black,
+            color: 'red',
           },
         ]}>
         {title}
@@ -77,16 +77,15 @@ function App(): React.JSX.Element {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Nama">
-            M. Indra Adi Kusuma
+            Maureen Arsa Sanda Cantika
           </Section>
           <Section title="NIM">
-            22/504256/SV/21614
+            22/496535/SV/20972
           </Section>
           <Section title="Kelas">
-            B
+            A
           </Section>
-          <Section title="Link Social Media :">
-            Read the docs to discover what to do next:
+          <Section title="Link Media Sosial">
           </Section>
           <LearnMoreLinks />
         </View>
